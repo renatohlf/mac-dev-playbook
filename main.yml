@@ -8,4 +8,5 @@
 
   roles:
     - geerlingguy.homebrew
+    - geerlingguy.mas
     - dotfiles
