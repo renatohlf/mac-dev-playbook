@@ -5,6 +5,7 @@ homebrew_installed_packages:
   - git
   - ssh-copy-id
   - wget
+  - dockutil
   - npm
 
 homebrew_taps:
