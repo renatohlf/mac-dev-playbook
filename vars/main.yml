@@ -2,29 +2,10 @@
 homebrew_install_path: /usr/local/homebrew
 homebrew_installed_packages:
   - ansible
-  - docker
   - git
   - ssh-copy-id
   - wget
-  - dockutil
-  - zsh
-  - tmux
-  - mercurial
-  - phpmd
-  - php-code-sniffer
-  - php-cs-fixer
-  - phpunit
-  - php70
-  - php70-intl
-  - php70-imagick
-  - php70-mcrypt
-  - tree
   - npm
-  - yarn
-  - docker-compose
-  - docker-machine-nfs
-  - composer
-  - git-extras
 
 homebrew_taps:
   - caskroom/cask
@@ -39,17 +20,15 @@ homebrew_cask_apps:
   - virtualbox
   - phpstorm
   - slack
-  - istat-menus
   - atom
-  - android-file-transfer
   - spotify
-  - hipchat
+  - iterm2
+  - karabiner-elements
 
 dockitems_to_remove:
   - Launchpad
   - Mail
   - Safari
-  - Contacts
   - Notes
   - Reminders
   - Maps
@@ -85,15 +64,9 @@ dockitems_to_persist:
   - name: Spotify
     path: /Applications/Spotify.app
     pos: 7
-  - name: HipChat
-    path: /Applications/HipChat.app
-    pos: 8
-
 
 npm_packages:
-  - grunt
+  - gulp
   - bower
   - sass
   - webpack
-  - yo
-  - generator-webapp
