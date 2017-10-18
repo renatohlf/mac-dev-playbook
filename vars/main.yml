@@ -7,6 +7,7 @@ homebrew_installed_packages:
   - wget
   - dockutil
   - npm
+  - nmap
 
 mas_installed_apps:
   - { id: 918858936, name: "Airmail 3" }
