@@ -10,9 +10,9 @@ homebrew_installed_packages:
   - nmap
 
 mas_installed_apps:
-  - { id: 918858936, name: "Airmail 3" }
   - { id: 419330170, name: "Moom" }
   - { id: 406825478, name: "Telefon" }
+  - { id: 1094254051, name: "Outbank"}
 
 homebrew_taps:
   - caskroom/cask
@@ -28,11 +28,9 @@ homebrew_cask_apps:
   - phpstorm
   - jetbrains-toolbox
   - slack
-  - atom
   - spotify
   - iterm2
   - karabiner-elements
-  - dropbox
   - sketch
   - sequel-pro
 
@@ -56,30 +54,28 @@ dockitems_to_remove:
   - Siri
 
 dockitems_to_persist:
-  - name: Airmail 3
-    path: "/Applications/Airmail 3.app"
-    pos: 1
   - name: Google Chrome
     path: "/Applications/Google Chrome.app"
-    pos: 2
+    pos: 1
   - name: Slack
     path: /Applications/Slack.app
-    pos: 3
+    pos: 2
   - name: iTerm
     path: /Applications/iTerm.app
-    pos: 4
+    pos: 3
   - name: PhpStorm
     path: /Applications/PhpStorm.app
-    pos: 5
+    pos: 4
   - name: Sketch
     path: /Applications/Sketch.app
-    pos: 6
+    pos: 5
   - name: Spotify
     path: /Applications/Spotify.app
+    pos: 6
+  - name: Outbank
+    path: /Applications/Outbank.app
     pos: 7
 
 npm_packages:
-  - gulp
-  - bower
-  - sass
   - webpack
+  - yarn
