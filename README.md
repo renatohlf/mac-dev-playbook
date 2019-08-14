@@ -5,6 +5,8 @@ It is a stripped version suited to my needs.
 
 For installation:
 
+    $ cd /usr/local
+    $ sudo chown -R <your-username>:staff *
     $ xcode-select --install
     $ sudo easy_install pip
     $ sudo pip install ansible

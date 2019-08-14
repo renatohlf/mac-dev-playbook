@@ -12,12 +12,12 @@ homebrew_installed_packages:
 mas_installed_apps:
   - { id: 419330170, name: "Moom" }
   - { id: 406825478, name: "Telefon" }
-  - { id: 1094254051, name: "Outbank"}
+  - { id: 1094255754, name: "Outbank"}
+  - { id: 732710998, name: "Enpass"}
 
 homebrew_taps:
   - caskroom/cask
   - caskroom/versions
-  - homebrew/php
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
