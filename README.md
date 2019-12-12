@@ -11,7 +11,7 @@ For installation:
     $ sudo easy_install pip
     $ sudo pip install ansible
     $ mkdir dev && cd dev
-    $ git clone git@github.com:philippschreiber/mac-dev-playbook.git
+    $ git clone git@github.com:renatohlf/mac-dev-playbook.git
     $ cd mac-dev-playbook
     $ ansible-galaxy install -r requirements.yml
 
