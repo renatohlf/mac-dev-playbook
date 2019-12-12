@@ -11,9 +11,6 @@ homebrew_installed_packages:
 
 mas_installed_apps:
   - { id: 419330170, name: "Moom" }
-  - { id: 406825478, name: "Telefon" }
-  - { id: 1094255754, name: "Outbank"}
-  - { id: 732710998, name: "Enpass"}
 
 homebrew_taps:
   - caskroom/cask
@@ -25,7 +22,7 @@ homebrew_cask_apps:
   - firefox
   - vagrant
   - virtualbox
-  - phpstorm
+  - webstorm
   - jetbrains-toolbox
   - slack
   - spotify
@@ -36,22 +33,25 @@ homebrew_cask_apps:
 
 dockitems_to_remove:
   - Launchpad
-  - Mail
   - Safari
-  - Notizen
-  - Erinnerungen
+  - Notes
+  - Reminders
   - Karten
-  - Fotos
-  - Nachrichten
+  - Photos
+  - Contacts
   - Pages
   - Numbers
   - Keynote
-  - Systemeinstellungen
+  - System Preferences
   - FaceTime
   - iTunes
   - iBooks
   - App Store
   - Siri
+  - TV
+  - Messages
+  - Maps
+  - Music
 
 dockitems_to_persist:
   - name: Google Chrome
@@ -63,18 +63,12 @@ dockitems_to_persist:
   - name: iTerm
     path: /Applications/iTerm.app
     pos: 3
-  - name: PhpStorm
+  - name: WebStorm
     path: /Applications/PhpStorm.app
     pos: 4
-  - name: Sketch
-    path: /Applications/Sketch.app
-    pos: 5
   - name: Spotify
     path: /Applications/Spotify.app
-    pos: 6
-  - name: Outbank
-    path: /Applications/Outbank.app
-    pos: 7
+    pos: 5
 
 npm_packages:
   - webpack
